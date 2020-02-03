@@ -21,7 +21,7 @@
     "build": "tsdx build",
     "test": "tsdx test",
     "lint": "tsdx lint",
-    "prepublish": "yarn lint && yarn test && yarn build"
+    "prepublish": "npm run lint && npm run test && npm run build"
   },
   "peerDependencies": {},
   "husky": {
@@ -36,8 +36,8 @@
     "trailingComma": "es5"
   },
   "devDependencies": {
-    "@types/jest": "^24.9.0",
-    "husky": "^4.0.10",
+    "@types/jest": "^25.1.1",
+    "husky": "^4.2.1",
     "prettier": "^1.19.1",
     "pretty-quick": "^2.0.1",
     "tsdx": "^0.12.3",
